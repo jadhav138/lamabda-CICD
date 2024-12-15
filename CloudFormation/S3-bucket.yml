@@ -18,8 +18,7 @@ Resources:
       Tags:
         - Key: "Environment"
           Value: !Ref Environment
-        - Key: "test"
-          Value: "This is a test tag"
+      
 
 Outputs:
   BucketName:
