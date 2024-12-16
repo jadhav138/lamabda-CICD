@@ -18,10 +18,11 @@ Resources:
       Tags:
         - Key: "Environment"
           Value: !Ref Environment
-       
-      
-
+        - Key: "Test"
+          Value: "Testing "
+          
 Outputs:
   BucketName:
     Value: !Ref MyS3Bucket
     Description: "The name of the S3 bucket"
+
