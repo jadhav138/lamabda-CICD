@@ -20,7 +20,7 @@ Resources:
           Value: !Ref Environment
         - Key: "Test"
           Value: "Testing "
-        - Key: "Staging"
+        - Key: "Environment"
           Value: "New staging"
 
 Outputs:
