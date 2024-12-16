@@ -18,7 +18,10 @@ Resources:
       Tags:
         - Key: "Environment"
           Value: !Ref Environment
-
+        - Key: "Test"
+          Value: "Testing "
+        - Key: "Environment"
+          Value: "New staging"
 
 Outputs:
   BucketName:
