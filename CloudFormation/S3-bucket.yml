@@ -20,7 +20,9 @@ Resources:
           Value: !Ref Environment
         - Key: "Test"
           Value: "Testing "
-          
+        - Key: "Staging"
+          Value: "New staging"
+
 Outputs:
   BucketName:
     Value: !Ref MyS3Bucket
