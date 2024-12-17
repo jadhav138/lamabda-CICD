@@ -18,13 +18,7 @@ Resources:
       Tags:
         - Key: "Environment"
           Value: !Ref Environment
-        - Key: "Test"
-          Value: "Testing"
-        - Key: "Staging"
-          Value : "Testing"
-       
-       
-
+            
 Outputs:
   BucketName:
     Value: !Ref MyS3Bucket
